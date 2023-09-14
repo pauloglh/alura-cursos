@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root{
-    --cor-fundo: #213555;
-    --cor-texto: #F0F0F0;
-    --cor-destaque: #E5D283;
-    --cor-hover: #4F709C;
+    --cor-fundo: #994636;
+    --cor-texto: #EAF4D3;
+    --cor-destaque: #DBD8AE;
+    --cor-hover: #CA907E;
     
     --font-titulos: 'Krona One', sans-serif;
     --font-textos: 'Montserrat', sans-serif;
