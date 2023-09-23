@@ -20,6 +20,7 @@ hr {
         display: flex;
         justify-content: space-around;
         padding: 3em;
+        background-color: var(--cinza-rodape);
         align-items: start;
     }
 
@@ -43,5 +44,16 @@ hr {
         color: var(--cinza-claro);
         font-size: 14px;
         text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodapé {
+        padding: 3em 0;
+    }
+
+    .lista__rodapé {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
     }
 }
