@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container .esquerda {
+  width: 50%;
+  background-color: rgb(233, 178, 238);
+  text-align: center;
+}
+.container .esquerda .texto {
+  font-size: 140px;
+  margin-top: 40%;
+  color: rgb(92, 148, 165);
+}
+.container .direita {
+  width: 50%;
+  background-color: rgb(92, 148, 165);
+  text-align: center;
+}
+.container .direita .texto {
+  font-size: 140px;
+  margin-top: 40%;
+  color: rgb(233, 178, 238);
+}/*# sourceMappingURL=style.css.map */

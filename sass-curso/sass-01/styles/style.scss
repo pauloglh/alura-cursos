@@ -1,0 +1,34 @@
+// variáveis
+$cor-principal: rgb(233, 178, 238);
+$cor-secundaria: rgb(92, 148, 165);
+// função s/ parâmetros
+@mixin reset {
+    margin: 0px;
+    padding: 0px;
+}
+// função c/ parâmetros
+@mixin fundo-e-texto($cor-fundo, $cor-texto){
+    width: 50%;
+    background-color: $cor-fundo;
+    text-align: center;
+    .texto {
+        font-size: 140px;
+        margin-top: 40%;
+        color: $cor-texto;
+    }
+}
+
+body {
+    @include reset;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    .esquerda {
+        @include fundo-e-texto($cor-principal, $cor-secundaria);
+    }
+    .direita {
+        @include fundo-e-texto($cor-secundaria, $cor-principal);
+    }
+}
