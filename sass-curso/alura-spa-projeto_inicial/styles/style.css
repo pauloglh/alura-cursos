@@ -40,4 +40,103 @@ nav ul li a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #606C5D;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
+  color: #606C5D;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+#servicos h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  text-align: center;
+  width: 360px;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #606C5D;
+  font-weight: 300;
+}
+#servicos .cards .card p {
+  font-size: 1.2rem;
+  color: #606C5D;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #606C5D;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #F1C376;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #606C5D;
+}
+#cupom .texto h2 {
+  font-size: 1.7647058824rem;
+  margin: 2rem;
+}
+#cupom .input {
+  width: 575px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  border: 4px solid white;
+}
+#cupom .input input {
+  height: 40px;
+  width: 540px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.425);
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  width: 130px;
+  height: 40px;
+  outline: none;
+  margin-top: 0.75rem;
+  background-color: #F7E6C4;
+  color: #606C5D;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 1px #F7E6C4;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #F7E6C4;
+  background-color: #606C5D;
+  border-color: #606C5D;
 }/*# sourceMappingURL=style.css.map */
