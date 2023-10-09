@@ -101,4 +101,11 @@
         grid-area: lista;
     }
 
+    .categorias__destaque {
+        grid-area: destaque;
+    }
+
+    .categorias__imagem {
+        grid-area: imagem;
+    }
 }
